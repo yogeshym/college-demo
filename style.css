@@ -1,0 +1,525 @@
+body{
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  padding: 0%;
+  margin: 0.25rem;
+  overflow: hidden;
+    background-color: #000;
+  
+}
+.web{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+.sidebar{
+    background-color: #000;
+    border-radius: 1rem;
+    width: 320px;
+}
+.main{
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+}
+.footer{
+    background-color: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+.nav{
+    display: flex;
+    
+    padding: 0.5rem 0.7rem;
+    line-height: 2.8rem;
+    font-size: 1.1rem;
+    flex-direction: column;
+}
+.nav i{
+    color: white;
+    font-size: 1.2rem;
+    
+
+}
+.nav_option {
+font-size: 1.1rem;
+
+opacity: 0.7;
+padding: 0.5rem 1rem;
+text-decoration: none;
+
+background-color: #121212;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: .2rem;
+}
+.nav_option:hover{
+    background-color: #1a1a1a;
+    border-radius: 0.5rem;
+    opacity: 1;
+}
+.library{
+    
+    height: 100%;
+    
+    
+    background-color: #000;
+} 
+.option{
+    display: flex;
+    padding: 0.3rem .8rem;
+    font-size: 1.1rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.option_library{
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+.option_library img{
+    height: 1.2rem;
+    padding-right: 0.5rem;
+}
+.icons{
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem ;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    width: 2rem;
+    display: flex;
+    
+    cursor: pointer;
+}
+.option_library:hover{
+opacity: 1;
+}
+
+.one{
+    opacity: 0.7;
+
+}
+.two{
+    opacity: 0.7;
+}
+.icons .one:hover{
+    opacity: 1;
+    
+}
+.icons .two:hover{
+    opacity: 1;
+}
+.boxs {
+    color: white;
+padding: 0.15rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    
+    align-content: space-between;
+}
+.box{
+    
+    background-color: #121212;
+    width: 100%;
+    margin-top: 0.75rem;
+    border-radius: 1rem;
+    
+    
+}
+.box .p1{
+font-weight: 500;
+font-size: 1.1rem;
+margin-left: .5rem;
+opacity: .9;
+}
+.box .p2{
+    font-weight: 300;
+    font-size: .9rem;
+    margin-left: .5rem;
+    opacity: .9;
+}
+.btn{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: .9rem;
+    margin-bottom: .8rem; 
+    font-weight: 500;
+    opacity: .9;
+}
+.btn:hover{
+    padding: .3rem 1.05rem;
+    
+    opacity: 1;
+}
+
+.navigation{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    background-color: #121212;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.bars{
+    color: white;
+    font-size: 1.2rem;
+    
+    margin: 1rem 1.1rem ;
+    cursor: pointer;
+    
+    width: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bars i{
+    padding: .5rem .7rem;
+    background-color: black;
+    border-radius: 1rem;
+    font-weight: 600;
+    opacity: .7;
+}
+.bars i:hover{
+    opacity: 1;
+    font-size: 1.3rem;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    align-items: center;
+    margin-right: .5rem;
+    margin-right: 23rem;
+}
+.right .btn2{
+    padding: .3rem 1.3rem;
+    font-size: .95rem;
+    font-weight: 560;
+    border-radius: 1rem;
+    background-color: white;
+    opacity: .9;
+    }
+.right .p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    opacity: 0.9;
+    
+    padding: .3rem ;
+    border-radius: 1rem;
+    background-color: #0e0e0e;
+}
+.right .p:hover{
+    opacity: 1;
+    font-size: 1.06rem;
+}
+
+
+
+.right .btn2:hover{
+    padding: 0.35rem 1.35rem;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+.container .top{
+    width: 100%;
+    justify-content: space-evenly;
+} 
+.cards{
+    display: flex;
+    padding: 2rem 2rem; ;
+    width: 12rem;
+    height: 20rem;
+    flex-direction: column;
+}
+.cards h1{
+    font-weight: 600;
+    color: white;
+    display: inline;
+    font-size: 1.5rem;
+    margin-top: 0 ;
+    padding-left: 1rem;
+    width: 50rem;
+    height: 2.9rem;
+    
+}
+ .card1{
+    background-color: #1c1a1a;
+    width: 11rem;
+    height:19rem ;
+    display: flex;
+    margin-left: .5rem;
+    flex-direction: column;
+    
+    border-radius: 1rem;
+    color: white;
+    padding: .8rem;
+    
+
+}
+.cards .cardm{
+    margin-top: 2.9rem;
+}
+
+.card{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 1rem;
+  padding: 0rem;
+  
+}
+
+
+.card1 .text1{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem ;
+    margin-left: .5rem;
+    margin-bottom: 0;
+}
+.card1 .text2{
+    font-size: 0.85rem;
+    font-weight: 350;
+    margin-top: 0.7rem;
+    margin-left: .5rem;
+    opacity: 0.8;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container2 .cards{
+    margin-left: 0rem;
+}  
+.container2 .card2{
+    margin-left: 3rem;
+}
+.card2{
+    margin-top: 5rem;
+    height: 17rem;
+}
+.space{
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+}
+.space1{
+    height: 2rem;
+    width: 90%;
+    border-top: white solid 0.1rem;
+    margin-left: 1.5rem;
+ padding-top: 6rem ;
+ opacity: 0.2;
+ padding-left: 2rem;
+ margin-top: 3rem;
+ font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 4.5rem;
+}
+.footer .music1{
+    width: 27%;
+    
+}
+.footer .music2{
+    width: 45%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    
+}
+.music2 .playerctl{
+display: flex;
+justify-content: center;
+
+align-items: center;
+align-content: center;
+
+
+}
+.playerctl img{
+    margin: .8rem;
+    height: .9rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    opacity: 0.8;
+    
+}
+.playerctl img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.music2 .playbar{
+    justify-content: space-around;
+    color: white;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+.footer .music2 .range{
+    width: 80%;
+    margin-top: 0;
+    cursor: pointer;
+    height: .51rem;
+    appearance: none;
+    background-color: transparent;
+    
+}
+.range::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    
+}
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -.25rem;
+}  
+
+.footer .music3{
+    width: 27%;
+    
+}
+.music1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-radius: 1rem;
+    
+}
+.music1 .imglast{
+    height: 3rem;
+    width: 3rem;
+    border-radius: .3rem;
+    margin-left: .2rem;
+}
+.music1 p {
+    color: white;
+margin-left: -1.5rem;
+}
+.music1 .l1{
+    font-size: .85rem;
+    font-weight: 500;
+    
+}
+.music1 .l2{
+    font-size: 0.7rem;
+    font-weight: 300;
+    opacity: .9;
+}
+.music1 .imglogo{
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: .8;
+    margin-left: -1.5rem;
+}
+.music1 .logo2{
+    height: 2rem;
+    width: 2rem;
+    opacity: 1;
+    margin-left: -1.5rem;
+}
+.music3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-radius: 1.5rem;
+}
+.music3 img{
+    margin-top: .9rem;
+}
+.music3 .imglogo2{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+.music3 .imgicon1 {
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+.music3 .imgicon2 {
+    height: 1.5rem;
+    width: 1.rem;
+    opacity: 0.7;
+}
+.music3 .imgicon3 {
+    height: 1.3rem;
+    width: 1.3rem;
+    opacity: 0.7;
+}
+.range2{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.range2::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.range2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -.26rem;
+}
+
